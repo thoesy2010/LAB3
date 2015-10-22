@@ -208,7 +208,8 @@ public class Hand {
 				&& CardsInHand.get(eCardNo.FirstCard.getCardNo()).getSuit() == CardsInHand
 						.get(eCardNo.FifthCard.getCardNo()).getSuit()) {
 			Flush = true;
-		} else {
+		}
+		else {
 			Flush = false;
 		}
 
